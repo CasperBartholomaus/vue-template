@@ -1,0 +1,42 @@
+{
+  "name": "vue-template",
+  "version": "1.0.0",
+  "description": "Vue Template",
+  "scripts": {
+    "dev:start": "webpack-dev-server --mode development",
+    "prod:start": "webpack --mode production",
+    "test": "jest"
+  },
+  "author": "Casper Bartholomaus",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@vue/test-utils": "^1.0.0-beta.30",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.2",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vue-jest": "^3.0.5",
+    "vue-loader": "^15.7.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
