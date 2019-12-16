@@ -1,8 +1,8 @@
 <template>
   <div>
     {{counter}}
-    <button class="btnIncrement" @click="this.incrementCounter">Increment</button>
-    <button class="btnDecrement" @click="this.decrementCounter">Decrement</button>
+    <md-button class="md-raised md-primary btnIncrement" @click="this.incrementCounter">Increment</md-button>
+    <md-button class="md-raised md-primary btnDecrement" @click="this.decrementCounter">Decrement</md-button>
   </div>
 </template>
 
